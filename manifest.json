@@ -1,0 +1,25 @@
+{
+  "name": "舞衣",
+  "appid": "__UNI__WARDROBE",
+  "description": "智能电子衣橱APP",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "舞衣 - 智能电子衣橱",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    },
+    "devServer": {
+      "port": 5173
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  }
+}

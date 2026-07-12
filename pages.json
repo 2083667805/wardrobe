@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "舞衣",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/closet/index",
+      "style": {
+        "navigationBarTitleText": "衣橱",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/add/index",
+      "style": {
+        "navigationBarTitleText": "添加衣物",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/outfits/index",
+      "style": {
+        "navigationBarTitleText": "我的穿搭",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "舞衣",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F5F0EB"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#D4A89B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/closet/index",
+        "text": "衣橱"
+      },
+      {
+        "pagePath": "pages/add/index",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/outfits/index",
+        "text": "穿搭"
+      }
+    ]
+  }
+}
