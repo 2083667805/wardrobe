@@ -1,42 +1,50 @@
-# wardrobe-vue
+# 👗 舞衣 - 智能电子衣橱
 
-This template should help get you started developing with Vue 3 in Vite.
+> 一个基于 Vue 3 + TypeScript 的智能电子衣橱应用，帮你管理衣物、推荐穿搭、虚拟试衣。
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ 功能特性
 
-## Recommended Browser Setup
+- 📸 **衣物管理** - 拍照上传衣物，自动识别分类
+- 🎨 **穿搭推荐** - 智能推荐今日穿搭，支持多种风格
+- 👤 **虚拟试衣** - 3D 模特展示，调整身材数据看效果
+- ❤️ **收藏穿搭** - 收藏喜欢的搭配方案
+- 📊 **衣橱统计** - 查看衣物数量、品类分布
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Type Support for `.vue` Imports in TS
+## 🚀 在线预览
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[https://2083667805.github.io/wardrobe/](https://2083667805.github.io/wardrobe/)
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 本地运行
 
-## Project Setup
-
-```sh
+```bash
+# 安装依赖
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 启动开发服务器
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# 打包
 npm run build
 ```
+
+---
+
+## 🛠️ 技术栈
+
+- Vue 3 + TypeScript
+- Vite
+- Pinia (状态管理)
+- uni-app (跨平台)
+- Three.js (3D 模特)
+
+---
+
+## 📄 许可证
+
+MIT License
